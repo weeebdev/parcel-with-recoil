@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "start": "parcel",
+    "start-https": "parcel --https",
     "build": "parcel build"
   },
   "keywords": [],
