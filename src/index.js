@@ -1,3 +1,4 @@
-import('./utils/dynamic_module').then(
-	(module) => module.hello()
-)
+import reactDom from "react-dom";
+import App from './App'
+
+reactDom.render(<App />, document.getElementById('app'));
